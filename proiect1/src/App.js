@@ -1,17 +1,15 @@
 import React from "react";
 import Header from "./components/header/Header";
-import {Logo} from "./components/header/Header.style";
-
-
-
+import Content from "./content/Content";
 
 
 
 function App() {
     return (
-    <Header>
-      <Logo/>
-    </Header>
+   <div>
+     <Header/>
+     <Content/>
+   </div>
     );
   }
   
