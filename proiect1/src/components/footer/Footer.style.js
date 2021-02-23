@@ -8,7 +8,7 @@ color: ${colors.text};
 margin:10px;
 display:flex;
 justify-content:center;
-border-top: 1px black dotted;
+border-top: 1px dotted ${colors.coffee};
 background-color: ${colors.grey};
 width: 100%;
 max-width: 100%;

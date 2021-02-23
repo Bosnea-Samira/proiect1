@@ -40,6 +40,7 @@ width: 100%;
 max-width: 100%;
 margin-top: 23px;
 padding: 0;
+border-top: 1px dotted ${colors.coffee};
 p{
     color:${colors.text};
     border-top: 1px solid ${colors.brown}; 
