@@ -1,5 +1,5 @@
 import React from "react";
-import {Header as H, Container, Logo, UL,Title} from "./Header.style";
+import {Header as H, Container, Logo, UL} from "./Header.style";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCat } from "@fortawesome/free-solid-svg-icons";
 
@@ -9,7 +9,7 @@ const Header = () => {
     <H>
         <Container>
             <Logo>
-                <FontAwesomeIcon icon={faCat}/>
+                <FontAwesomeIcon icon={faCat}/>Lazy CAT Cafe 
             </Logo>
             <UL>
                 <li>
