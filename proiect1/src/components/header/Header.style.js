@@ -4,7 +4,7 @@ import {colors,shadow} from "../../environments/colors";
 
 export const Header = styled.header`
 max-width: 100%;
-font-size: 22px;
+font-size: 30px;
 background-color: ${colors.dirtywhite};
 position: sticky;
 left: 0;
@@ -12,7 +12,6 @@ right: 0;
 top: 0;
 padding: 20px;
 overflow: hidden;
-font-family: 'Amatic SC', cursive;
 box-shadow: ${shadow}; 
 
 `;
@@ -23,7 +22,6 @@ justify-content: space-between;
 width: 100%;
 max-width: 1200px;
 margin: 0 auto;
-
 `;
 
 export const Logo = styled.div`

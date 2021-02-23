@@ -7,6 +7,7 @@ width: 100%;
 max-width: 1200px;
 margin: 0 auto;
 
+
 `;
 
 export const Title = styled.div`
@@ -23,11 +24,16 @@ color: ${colors.coffee};
 
 export const Ul = styled.ul`
  list-style:none;
- padding: 10px 15px;
+ display:flex;
+ flex-direction: column;
+ padding: 5px 10px;
  margin: 10px;
  font-size:22px;
+ cursor: pointer;
  li{
    color: ${colors.text};
+   padding: 15px;
+   font-size: 28px;
    &:hover{
      color: ${colors.coffee}
    }
