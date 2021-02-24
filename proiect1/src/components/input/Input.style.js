@@ -11,9 +11,9 @@ export const InputField = styled.input`
   display: block;
   width: 95%;
   border: unset;
-  background-color: ${colors.brown};
-  color: ${colors.white};
-  padding: 10px 15px;
+  background-color: ${colors.white};
+  color: ${colors.blue};
+  padding: 10px;
   border-radius: 5px;
   &:focus {
     border: none;

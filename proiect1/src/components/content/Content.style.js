@@ -6,6 +6,7 @@ flex:1;
 width:100%;
 max-width: 100%;
 `;
+
 export const Description = styled.div`
 display:flex;
 width: 90%;

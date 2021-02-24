@@ -33,7 +33,6 @@ padding: 10px 35px;
     color: ${colors.brown}
   }
 `;
-
 export const Title = styled.p`
   font-size: 40px;
   font-weight: 400;
