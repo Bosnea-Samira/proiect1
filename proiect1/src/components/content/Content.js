@@ -54,8 +54,9 @@ const Content = () => {
       <Contact>
         <ul>
           <p>
-            <h1>Where to find us</h1>
-          <h3>You can find us in Narnia, 25th Avenue, Aslan!</h3>
+            <h1>Location</h1>
+          <h3>You can find us in Narnia, 25th Avenue.</h3>
+          <Img src="https://static-maps.yandex.ru/1.x/?lang=en_US&size=520%2C440&l=map&spn=0.003460%2C0.002000&ll=25.269097%2C54.687592"/>
         </p>
         </ul>
         <ul>
@@ -67,25 +68,8 @@ const Content = () => {
           <h3>Sunday from 8 am to 6 pm</h3>
            </p>
         </ul>
-        <ul>
-          <p>
-            <h1>About us</h1>
-          </p>
-        </ul>
-        <ul>
-        <p>
-            <h1>Contact</h1>
-            <h3>Email:</h3>
-            <h3>Phone number:</h3>
-          </p>
-        </ul>
-        <ul>
-        <p>
-            <h1>Adopt</h1>
-            <h3>Cats</h3>
-            <h3>Phone number:</h3>
-          </p>
-        </ul>
+        
+        
       </Contact>        
         </Container>
     )

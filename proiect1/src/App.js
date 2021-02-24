@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCoffee, faUtensils } from "@fortawesome/free-solid-svg-icons";
 import {Title, Row} from "./components/dropdown/Dropdown.style";
 import "./style.css";
+import News from "./components/news/News";
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
      <Dropdowns label="Sandwiches" items={["With Bacon", "Ham & Cheese", "With Chicken"]}/>
      </Row>
     <Content/>
+    <News/>
      <Footer/>
      
    </div>
