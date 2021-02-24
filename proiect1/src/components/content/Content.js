@@ -64,11 +64,20 @@ const Content = () => {
           <h1>Open</h1>
           <h3>Monday-Thursday from 8 am to 6 pm</h3>
           <h3>Friday from 8 am to 8 pm</h3>
-          <h3>Saturday from 8 am to 6 pm</h3>
-          <h3>Sunday from 8 am to 6 pm</h3>
+          <h3>Saturday from 8 am to 4 pm</h3>
+          <h3>Sunday from 8 am to 2 pm</h3>
            </p>
         </ul>
-        
+        <ul>
+          <p>
+            <h1>Contact us</h1>
+            <h3>Email: lazycat@gmail.com</h3>
+            <h3>Tel: 0000000000</h3>
+            <h3>Mob: 0000000001</h3>
+
+
+          </p>
+        </ul>
         
       </Contact>        
         </Container>
