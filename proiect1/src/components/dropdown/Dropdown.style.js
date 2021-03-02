@@ -120,8 +120,8 @@ width: 100%;
 padding: 10px 15px;
 color: ${colors.brown};
 :hover{
-    font-size: 23px;
     color: ${colors.coffee};
+    transform: scale(1.1);
 }
 `;
 
@@ -132,7 +132,7 @@ border-bottom: 1px solid ${colors.brown};
 color: ${colors.brown};
 :hover{
     color: ${colors.coffee};
-    font-size: 24px;
+    transform: scale(1.1);
 }
 `;
 
